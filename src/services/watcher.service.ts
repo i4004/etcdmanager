@@ -2,7 +2,7 @@ import { WatcherAction, DataService } from './../../types/index';
 import {
     Etcd3, Watcher, EtcdError,
 } from 'etcd3';
-import * as RPC from 'etcd3/lib/src/rpc';
+import * as RPC from 'etcd3/lib/rpc';
 import EtcdService from './etcd.service';
 import { WatcherEntry } from '../../types';
 import store from '@/store';

@@ -1307,6 +1307,7 @@ import { Etcd3, IOptions } from 'etcd3';
 import { AuthService } from '../services/auth.service';
 import StatsService from '../services/stats.service';
 import { writeFileSync } from 'fs';
+import Mousetrap, { ExtendedKeyboardEvent } from 'mousetrap';
 
 const { ipcRenderer } = require('electron');
 
